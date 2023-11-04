@@ -12,7 +12,7 @@ generateQuotes();
 
 function rander(data){
     console.log(data);
-    quote.innerHTML = data?.slip?.advice;
+    quote.innerHTML = `☞ ${data?.slip?.advice}`;
 }
 
 

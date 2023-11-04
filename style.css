@@ -7,26 +7,31 @@ body{
 .container{
     width: 100vw;
     height: 100vh;
-    background-image: url(./Images/pexels-jakub-novacek-924824.jpg);
-    background-size: cover;
-    overflow: hidden;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(68,68,93,1) 0%, rgba(51,166,228,1) 23%, rgba(60,145,167,1) 47%, rgba(0,212,255,1) 82%);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 h1{
     margin-top: 6rem;
-    color: white;
     font-size: 3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 p{
+    height: 20vh;
     width: 60vw;
     margin-top: 6rem;
     color: white;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+button{
+    border: none;
+    background: transparent;
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
 }
 
 

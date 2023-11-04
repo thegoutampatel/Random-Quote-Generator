@@ -1,6 +1,5 @@
 const quote = document.querySelector("#quote");
-
-
+const button = document.querySelector("#button");
 
 function generateQuotes(){
     fetch("https://api.adviceslip.com/advice")
@@ -13,6 +12,12 @@ generateQuotes();
 function rander(data){
     console.log(data);
     quote.innerHTML = `☞ ${data?.slip?.advice}`;
+}
+
+button.addEventListener("click", getNew);
+
+function getNew(){
+    generateQuotes();
 }
 
 

@@ -33,5 +33,18 @@ button{
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
 }
+button:active{
+    background-color: #5181d6;
+}
+
+@media only screen and (max-width:480px){
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+        height: 15vh;
+    }
+}
 
 

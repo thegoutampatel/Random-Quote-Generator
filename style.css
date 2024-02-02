@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
 }
 .container{
-    width: 100vw;
+    min-width: 100vw;
     height: 100vh;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(68,68,93,1) 0%, rgba(51,166,228,1) 23%, rgba(60,145,167,1) 47%, rgba(0,212,255,1) 82%);
     display: flex;
